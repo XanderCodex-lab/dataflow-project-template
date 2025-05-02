@@ -151,7 +151,7 @@ Note: `--stream` is the path to a csv file that contains all the streams you wan
 
 #### Declaring the stream parameter in the transformation
 
-Make sure to specify one last optional paramter called `stream` in the transformation function, the incoming stream of data will be a dictionary with the exact payload received in the HTTP post request.
+Make sure to specify one last optional parameter called `stream` in the transformation function, the incoming stream of data will be a dictionary with the exact payload received in the HTTP post request.
 
 ```py
 import pandas as pd
